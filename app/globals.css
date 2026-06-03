@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Figtree:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
 @import "tailwindcss";
 
 @theme inline {
-  --font-heading: "Fraunces", Georgia, serif;
-  --font-body: "Figtree", sans-serif;
-  --font-mono: "JetBrains Mono", monospace;
+  --font-heading: var(--font-heading), Georgia, serif;
+  --font-body: var(--font-body), sans-serif;
+  --font-mono: var(--font-mono), monospace;
 
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
